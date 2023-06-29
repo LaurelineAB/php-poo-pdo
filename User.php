@@ -57,10 +57,13 @@ class User {
     }
     
     //METHODS
-    public function getFullName() : string
+    public function getFullName() : void
     {
-        return $this->firstName . $this->lastName;
+        echo $this->firstName . ' ' . $this->lastName;
     }
 }
+
+// $user = new User("Laureline","Aga-Bibrac","email@test.fr");
+// $user->getFullName();
 
 ?>
