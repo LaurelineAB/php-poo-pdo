@@ -70,6 +70,6 @@ $teacher = new User("Mari","Doucet","email");
 $school = new School($teacher);
 $school->addStudent($student1);
 $school->addStudent($student2);
-$school->removeStudent($student1);
+// $school->removeStudent($student1);
 var_dump($school);
 ?>
